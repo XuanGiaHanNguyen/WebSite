@@ -1,0 +1,98 @@
+h1, h2 {
+    font-family:"Anton SC", serif;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    color:#777d81
+}
+header{
+    text-align: center;
+    line-height: 1.5;
+}
+h1{
+    font-size: 6.5rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header h2{
+    margin: 0;
+    font-size: 2.5rem;
+    line-height: 1;
+    padding: 0 0 0 0
+}
+
+body{
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    letter-spacing: 0.005rem;
+    font-size: 1.2rem;
+    margin: 2.5rem; 
+}
+button, textarea{
+    font: inherit;
+}
+
+nav{
+    background-color: #f26419;
+    border: 10px solid #f26419;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding: 0.3px;
+    width: 70%;
+}
+
+a{
+    text-decoration: none;
+    color:#33658A;
+    font-weight: bold;
+}
+
+a:hover{
+    color:rgb(59, 121, 183) ;
+}
+
+header a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+header a:hover{
+    color: rgb(252, 195, 88);
+}
+.bold{
+    font-weight: bold;
+}
+
+.ClickMe {
+    padding: 2.5em;
+    width: 10%;
+    text-align: center;
+    margin: 0 20px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+}
+.ClickMe:hover{
+    background-color: #33658A;
+    color:#F6AE2D;
+}
+.ClickMe a{
+    color:#000000;
+    font-family: "Anton SC", serif;
+    letter-spacing: 0.05em;
+}
+
+.container{
+    display: flex; /* Aligns items in a row */
+    justify-content: center; /* Centers the links horizontally */
+    gap: 5px; /* Adds space between the links */
+    margin: 5px 0; /* Optional: Adds spacing above and below the container */
+}
+.center{
+    text-align: center;
+    font-size: 1.75em;
+}
+
+footer a{
+    color:#000000;
+}
