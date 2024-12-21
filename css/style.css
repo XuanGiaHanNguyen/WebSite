@@ -58,7 +58,7 @@ header a{
 }
 
 header a:hover{
-    color: rgb(252, 195, 88);
+    color: #33658A;
 }
 .bold{
     font-weight: bold;
@@ -73,8 +73,7 @@ header a:hover{
     border-radius: 10px;
 }
 .ClickMe:hover{
-    background-color: #33658A;
-    color:#F6AE2D;
+    background-color:#F6AE2D;
 }
 .ClickMe a{
     color:#000000;
@@ -95,4 +94,25 @@ header a:hover{
 
 footer a{
     color:#000000;
+}
+
+.ClickMe2 {
+    padding: 4em;
+    width: 35%;
+    text-align: center;
+    margin: 0 20px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 15px;
+}
+.ClickMe2:hover{
+    background-color:#86BBD8;
+}
+.ClickMe2 a{
+    color:#000000;
+    font-family: "Anton SC", serif;
+    letter-spacing: 0.05em;
+}
+
+.about{
+    padding: 2em 5em 1em 1.5em;
 }
