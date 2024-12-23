@@ -65,7 +65,7 @@ header a:hover{
 }
 
 .ClickMe {
-    padding: 2.5em;
+    padding: 2.3em;
     width: 10%;
     text-align: center;
     margin: 0 20px;
@@ -84,8 +84,8 @@ header a:hover{
 .container{
     display: flex; /* Aligns items in a row */
     justify-content: center; /* Centers the links horizontally */
-    gap: 5px; /* Adds space between the links */
-    margin: 5px 0; /* Optional: Adds spacing above and below the container */
+    gap: 1px; /* Adds space between the links */
+    margin: 3px 0; /* Optional: Adds spacing above and below the container */
 }
 .center{
     text-align: center;
