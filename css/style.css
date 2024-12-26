@@ -1,6 +1,4 @@
 /* Basic setup */
-
-
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +7,10 @@
 
 .bold{
     font-weight: bold;
+}
+
+.align{
+    text-align: center;
 }
 
 /* End Basic setup */
@@ -83,7 +85,7 @@ header a{
 }
 
 header a:hover{
-    color:#F6AE2D ;
+    color:#acacac ;
 }
 
 .container{
@@ -103,6 +105,7 @@ header a:hover{
     width: 10em;
     background-color:rgb(226, 226, 226);
     border-radius: 10px;
+    z-index: 1;
 }
 
 .Box a{
@@ -132,6 +135,7 @@ header a:hover{
     padding: 4em 4.5em;
     background-color:rgb(226, 226, 226);
     border-radius: 10px;
+    z-index: 1;
 }
 
 .Small a{
@@ -230,7 +234,7 @@ h2{
     right:30px;
     padding: 8em 8em;
     width: 20%;
-    background-color: #6eae4d;
+    background-color: #8eb17d;
     border-radius: 15px;
     transform: rotate(15deg);
     border-radius: 100em;
@@ -241,3 +245,121 @@ h2{
     font-size: 2.5em;
 }
 
+
+.b5{
+    position:absolute;
+    top:690px;
+    left:30px;
+    padding: 10em 10em;
+    width: 20%;
+    background-color: #e87030;
+    border-radius: 15px;
+    transform: rotate(15deg);
+    border-radius: 100em;
+}
+
+.b6{
+    position:absolute;
+    top:850px;
+    right:180px;
+    padding: 6.5em;
+    width: 35%;
+    background-color: rgb(193, 193, 193);
+    border-radius: 15px;
+    transform: rotate(-10deg);
+}
+
+.upper{
+    margin-top: -0.5em;
+    margin-bottom: 0.5em;
+}
+
+.include{
+    padding-top: 1em;
+    margin-top: -1em;
+    margin-bottom: 1em;
+}
+
+.b7{
+    position:absolute;
+    top:1120px;
+    right:-20px;
+    padding: 11em 11em;
+    width: 20%;
+    background-color: #ffaf47;
+    border-radius: 15px;
+    transform: rotate(15deg);
+    border-radius: 100em;
+}
+
+ 
+.b8{
+    position:absolute;
+    top:1540px;
+    left:10px;
+    padding: 11em;
+    width: 60%;
+    background-color: #8eb17d;
+    border-radius: 15px;
+    transform: rotate(6deg);
+}
+
+.ABox{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    transform: rotate(6deg);
+}
+.BBox{
+    z-index: 1;
+}
+.space{
+    margin-bottom: 0.4em;
+}
+
+.b9{
+    position:absolute;
+    top:1290px;
+    left:-80px;
+    padding: 7em;
+    width: 45%;
+    background-color: #2b85c9;
+    transform: rotate(-20deg);
+    border-radius: 1.5em;
+}
+
+.color{
+    color: rgb(111, 111, 111);
+}
+
+footer{
+    color:#4d4d4d;
+    font-weight: 700;
+    font-size:1.05em;
+}
+
+.CBox{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-left: 34.5em;
+    margin-right: 2em;
+    margin-top: -15em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-radius: 15px;
+    background-color: #e08554;
+}
+
+.CBox a{
+    color: rgb(90, 90, 90) ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 0;
+    letter-spacing: 0.1em;
+}
+
+.CBox a:hover{
+    color: rgb(80, 86, 116) ;
+    text-decoration: underline;
+}
