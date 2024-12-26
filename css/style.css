@@ -103,7 +103,6 @@ header a:hover{
     width: 10em;
     background-color:rgb(226, 226, 226);
     border-radius: 10px;
-
 }
 
 .Box a{
@@ -217,7 +216,7 @@ h2{
 .b2{
     position:absolute;
     top:500px;
-    right:-4px;
+    right:0px;
     padding: 7em 10em;
     width: 40%;
     background-color: #2b85c9;
@@ -239,39 +238,6 @@ h2{
 
 .center{
     text-align: center;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
-.b5{
-    position:absolute;
-    top:720px;
-    left:-10px;
-    padding: 9.5em 9.5em;
-    width: 20%;
-    background-color: #F26419;
-    border-radius: 15px;
-    transform: rotate(15deg);
-    border-radius: 100em;
-}
-
-.b6{
-    position:absolute;
-    top:950px;
-    right:100px;
-    padding: 7em 10em;
-    width: 50%;
-    background-color: #ffaf47;
-    border-radius: 15px;
-    transform: rotate(-15deg);
-}
-
-.b7{
-    position:absolute;
-    top:950px;
-    right:100px;
-    padding: 7em 10em;
-    width: 50%;
-    background-color: #6eae4d;
-    border-radius: 15px;
-    transform: rotate(-15deg);
-}
